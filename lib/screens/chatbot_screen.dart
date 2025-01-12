@@ -161,7 +161,7 @@ class _ChatScreenState extends State<ChatScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Chat Assistant'),
-        backgroundColor: const Color.fromARGB(255, 210, 180, 211),
+        backgroundColor: const Color.fromARGB(255, 216, 187, 231),
         foregroundColor: Colors.white,
       ),
       body: Column(
@@ -182,7 +182,7 @@ class _ChatScreenState extends State<ChatScreen> {
                     padding: const EdgeInsets.all(16),
                     decoration: BoxDecoration(
                       color: isUser 
-                          ? const Color.fromARGB(255, 249, 199, 216)
+                          ? const Color.fromARGB(255, 239, 199, 249)
                           : message['error'] == true
                               ? Colors.red[100]
                               : Colors.grey[100],
@@ -269,7 +269,7 @@ class _ChatScreenState extends State<ChatScreen> {
                   child: ElevatedButton.icon(
                     onPressed: _isLoading ? null : _sendMessage,
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 201, 131, 217),
+                      backgroundColor: const Color.fromARGB(255, 164, 96, 180),
                       foregroundColor: Colors.white,
                       padding: const EdgeInsets.all(16),
                       shape: RoundedRectangleBorder(
