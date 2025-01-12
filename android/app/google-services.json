@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "303703026948",
+    "project_id": "iit-b-cb598",
+    "storage_bucket": "iit-b-cb598.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303703026948:android:5c27a2eaf2b6cda2307451",
+        "android_client_info": {
+          "package_name": "com.example.iitbombapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3aaOdytrMz1ey5EJF5fK-Vq590mK3U8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
